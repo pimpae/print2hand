@@ -74,6 +74,40 @@ body{
 .tab-content{
   border: 2px solid var(--main);
 }
+footer{
+  height: 50px;
+  background-color: var(--main);
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+footer a{
+  color: var(--accent-color);
+  text-decoration: underline !important;
+}
+.box{
+  background-color: var(--light-primary);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+.box img{
+  max-height: 200px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 20px; 
+  margin-bottom: 15px;
+}
+.box h3{ 
+  margin-top: 20px;
+  text-align: center;
+}
 
 
 /*
@@ -87,8 +121,12 @@ transition: .33s all ease-out;
   .mb-x{
     display: none !important;
   }     
-  .sec3 .p-5{
-    padding: 0px;
+  .sec3 .tab-pane .p-5{
+    padding: 0px !important;
+  }
+  .bts{
+    font-size: 14px;
+    margin-top: 36px;
   }
 }
 @media only screen and (min-width: 1025px) { /* PC */
