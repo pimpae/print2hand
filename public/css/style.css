@@ -88,7 +88,7 @@ footer a{
   text-decoration: underline !important;
 }
 .box{
-  background-color: var(--light-primary);
+  background-color: #ececec;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -107,6 +107,30 @@ footer a{
 .box h3{ 
   margin-top: 20px;
   text-align: center;
+}
+.ulc{
+  list-style: none;
+  padding-left: 0px;
+} 
+.ulc li{
+  margin-bottom: 10px;
+  position: relative;
+}
+.ulc li a{
+  font-size: 18px;
+  padding-left: 30px;
+  color: #000;
+  transition: .33s all ease-out;  
+} 
+.ulc li:hover a{
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.ulc li a i{
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-size: 20px;
 }
 
 
