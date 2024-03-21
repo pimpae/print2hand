@@ -217,7 +217,7 @@ transition: .33s all ease-out;
 }
 [type=search] {
   outline-offset: none !important;
-  -webkit-appearance: none !important;
+  /* -webkit-appearance: none !important; */
 }
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
   font-size: 14px;
