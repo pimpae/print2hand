@@ -187,6 +187,17 @@ transition: .33s all ease-out;
   .bts{
     font-size: 14px;
     margin-top: 36px;
+  } 
+  .carousel-control-prev{
+    opacity: 1;
+    left: -15px;
+  }
+  .carousel-control-prev-icon{
+    background-color: var(--light-primary);
+  }
+  .carousel-control-next{
+    opacity: 1;
+    right: -15px;
   }
 }
 @media only screen and (min-width: 1025px) { /* PC */
