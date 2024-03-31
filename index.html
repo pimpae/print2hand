@@ -301,44 +301,44 @@
 				</div>
 				<div class="col-12"> 
 					<div class="row mx-auto my-auto justify-content-center">
-						<div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+						<div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="100000">
 							<div class="carousel-inner" role="listbox">
 								<div class="carousel-item active">
 									<div class="col-md-4 m-auto">
-										<div class="box">
+										<div class="box" data-bs-toggle="modal" data-bs-target="#myModal">
 											<div>
-												<img src="public/images/logo.jpg" alt="image">
-												<h3>Sticker Printing</h3>
+												<img src="public/images/pd1.jpg" alt="image">
+												<h3>สติกเกอร์</h3>
 											</div>
 										</div>
 									</div>
 								</div> 
 								<div class="carousel-item">
 									<div class="col-md-4 m-auto">
-										<div class="box">
+										<div class="box" data-bs-toggle="modal" data-bs-target="#myModal">
 											<div>
-												<img src="public/images/logo.jpg" alt="image">
-												<h3>Sticker Printing</h3>
+												<img src="public/images/pd2.jpg" alt="image">
+												<h3>นามบัตร</h3>
 											</div>
 										</div>
 									</div>
 								</div> 
 								<div class="carousel-item">
 									<div class="col-md-4 m-auto">
-										<div class="box">
+										<div class="box" data-bs-toggle="modal" data-bs-target="#myModal">
 											<div>
-												<img src="public/images/logo.jpg" alt="image">
-												<h3>Sticker Printing</h3>
+												<img src="public/images/pd3.webp" alt="image">
+												<h3>แผ่นพับ</h3>
 											</div>
 										</div>
 									</div>
 								</div> 
 								<div class="carousel-item">
 									<div class="col-md-4 m-auto">
-										<div class="box">
+										<div class="box" data-bs-toggle="modal" data-bs-target="#myModal">
 											<div>
-												<img src="public/images/logo.jpg" alt="image">
-												<h3>Sticker Printing</h3>
+												<img src="public/images/pd1.jpg" alt="image">
+												<h3>สติกเกอร์</h3>
 											</div>
 										</div>
 									</div>
@@ -389,8 +389,39 @@
 		Copyright @ 2023 <a href="#">Print2Hand</a>, All Rights Reserved. 
 	</footer>
  
-
-
+ 
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
+			<div class="modal-content">  
+				<div class="modal-body">
+					<div id="gall" class="carousel slide  indicators	" data-bs-ride="carousel"> 
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#gall" data-bs-slide-to="0" class="active"></button>
+							<button type="button" data-bs-target="#gall" data-bs-slide-to="1"></button>
+							<button type="button" data-bs-target="#gall" data-bs-slide-to="2"></button>
+						</div> 
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="public/images/pd1.jpg" class="m-auto d-block img-fluid" alt="logo1">
+							</div>
+							<div class="carousel-item">
+								<img src="public/images/pd1.jpg" class="m-auto d-block img-fluid" alt="logo1">
+							</div>
+							<div class="carousel-item">
+								<img src="public/images/pd1.jpg" class="m-auto d-block img-fluid" alt="logo1">
+							</div>
+						</div> 
+						<button class="carousel-control-prev" type="button" data-bs-target="#gall" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#gall" data-bs-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</button>
+					</div>
+				</div>  
+			</div>
+		</div>
+	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>

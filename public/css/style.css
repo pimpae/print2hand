@@ -86,27 +86,42 @@ footer{
 footer a{
   color: var(--accent-color);
   text-decoration: underline !important;
-}
-.box{
-  background-color: #ececec;
+} 
+.box{ 
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
+  overflow: hidden;
+  transition: .33s all ease-out;  
+  cursor: pointer;
 }
-.box img{
-  max-height: 200px;
-  display: block;
-  margin: auto;
-  max-width: 100%;
+.box > div{
+  background-color: #fff; 
   margin-top: 20px; 
   margin-bottom: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  overflow: hidden;
+  transition: .33s all ease-out;  
+}
+.box img{ 
+  display: block;
+  margin: auto; 
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  transition: .33s all ease-out;  
+} 
+.box:hover img{ 
+  transform: scale(1.04);
 }
 .box h3{ 
   margin-top: 20px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .ulc{
   list-style: none;
@@ -134,14 +149,14 @@ footer a{
 }
 .carousel-control-prev{
   opacity: 1;
-  left: -20px;
+  left: -10%;
 }
 .carousel-control-prev-icon{
   background-color: var(--light-primary);
 }
 .carousel-control-next{
   opacity: 1;
-  right: -20px;
+  right: -10%;
 }
 .carousel-control-next-icon{
   background-color: var(--light-primary);
@@ -152,6 +167,8 @@ marquee{
   color: #fff;
   padding-top: 15px;
 }
+
+
 
 /*
 
