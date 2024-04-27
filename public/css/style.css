@@ -167,6 +167,35 @@ marquee{
   color: #fff;
   padding-top: 15px;
 }
+.sec5{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+.box-aa{ 
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.box-aa img{ 
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+.box-aa h4{ 
+  color: #000;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.box-aa h6{ 
+  color: #000;
+  font-size: 16px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  -webkit-line-clamp: 2;
+}
 
 
 
